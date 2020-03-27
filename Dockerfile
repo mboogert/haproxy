@@ -1,4 +1,4 @@
-FROM haproxy:2.1
+FROM haproxy:2.1-alpine
 
-RUN apt-get -y update &&  \
-    apt-get -y upgrade
+#RUN apt-get -y update &&  \
+#    apt-get -y upgrade
